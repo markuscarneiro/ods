@@ -95,7 +95,7 @@ port_mapping = {
 df = df.rename(columns=port_mapping)
 
 # Selectbox para selecionar o valor do campo 'TEMA'
-tema_selecionado = st.sidebar.selectbox("Select the SDG", df['TEMA'].unique())
+tema_selecionado = st.sidebar.selectbox("Select SDG", df['TEMA'].unique())
 
 # Filtrar as áreas disponíveis com base no tema selecionado, adicionando a opção "Todas"
 areas_disponiveis = df[df['TEMA'] == tema_selecionado]['AREA'].unique().tolist()
@@ -103,7 +103,7 @@ areas_disponiveis.insert(0, "All")
 area_selecionada = st.sidebar.selectbox("Select the Area", areas_disponiveis)
 
 # Filtrar o DataFrame com base no tema e, opcionalmente, na área selecionada
-if area_selecionada == "Todas":
+if area_selecionada == "All":
     df_filtrado = df[df['TEMA'] == tema_selecionado]
 else:
     df_filtrado = df[(df['TEMA'] == tema_selecionado) & (df['AREA'] == area_selecionada)]
