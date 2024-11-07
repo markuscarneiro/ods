@@ -151,7 +151,7 @@ else:
         st.pyplot(fig)
 
         # Gráficos comparativos individuais de cada porto com a média
-        st.markdown("<h3 style='text-align: center;'>CComparison of each Port with the Average</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='text-align: center;'>Comparison of each Port with the Average</h3>", unsafe_allow_html=True)
 
         for porto_anonimo in portos_anonimos:
             fig, (ax1, ax2) = plt.subplots(figsize=(12, 6), nrows=1, ncols=2, subplot_kw=dict(projection='radar'))
