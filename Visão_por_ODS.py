@@ -72,7 +72,7 @@ def radar_factory(num_vars, frame='circle'):
 @st.cache_data
 def load_data():
     df = pd.read_csv("BASE.csv", delimiter=';')
-    # Calcular a média de todos os portos
+    # Calcular a Average de todos os portos
     df['MEDIA'] = df[['SUAPE', 'ITAQUI', 'CABEDELO', 'S. FRANCISCO DO SUL', 'VALE', 'VPORTS']].mean(axis=1)
     return df
 
@@ -150,7 +150,7 @@ else:
 
         st.pyplot(fig)
 
-        # Gráficos comparativos individuais de cada porto com a média
+        # Gráficos comparativos individuais de cada porto com a Average
         st.markdown("<h3 style='text-align: center;'>Comparison of each Port with the Average</h3>", unsafe_allow_html=True)
 
         for porto_anonimo in portos_anonimos:
@@ -167,11 +167,11 @@ else:
             ax1.set_varlabels(labels, fontsize=10)
             ax1.set_title(porto_anonimo, weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
 
-            # Gráfico da média
-            ax2.plot(theta, valores_media, color='gray', linewidth=2, linestyle='--', label='Média')
+            # Gráfico da Average
+            ax2.plot(theta, valores_media, color='gray', linewidth=2, linestyle='--', label='Average')
             ax2.fill(theta, valores_media, color='gray', alpha=0.2)
             ax2.set_varlabels(labels, fontsize=10)
-            ax2.set_title("Média", weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
+            ax2.set_title("Average", weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
 
             # Configurações de grade e legendas
             for ax in (ax1, ax2):
