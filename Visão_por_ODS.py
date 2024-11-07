@@ -83,6 +83,17 @@ if 'df' not in st.session_state:
 # Utilizar o DataFrame armazenado no session_state
 df = st.session_state['df']
 
+# Anonimizar os nomes dos portos
+port_mapping = {
+    'SUAPE': 'Porto A',
+    'ITAQUI': 'Porto B',
+    'CABEDELO': 'Porto C',
+    'S. FRANCISCO DO SUL': 'Porto D',
+    'VALE': 'Porto E',
+    'VPORTS': 'Porto F'
+}
+df = df.rename(columns=port_mapping)
+
 # Selectbox para selecionar o valor do campo 'TEMA'
 tema_selecionado = st.sidebar.selectbox("Selecione o ODS", df['TEMA'].unique())
 
@@ -108,8 +119,8 @@ else:
     if N == 0:
         st.warning("Não há itens disponíveis para gerar o gráfico de radar.")
     else:
-        # Lista dos portos
-        portos = ['SUAPE', 'ITAQUI', 'CABEDELO', 'S. FRANCISCO DO SUL', 'VALE', 'VPORTS']
+        # Lista dos portos anonimizada
+        portos_anonimos = list(port_mapping.values())
 
         # Criar o gráfico de radar
         theta = radar_factory(N, frame='polygon')
@@ -125,14 +136,14 @@ else:
         fig, axs = plt.subplots(figsize=(18, 12), nrows=2, ncols=3, subplot_kw=dict(projection='radar'))
         fig.subplots_adjust(wspace=0.25, hspace=0.35, top=0.85, bottom=0.1)
 
-        for ax, porto in zip(axs.flat, portos):
-            valores = df_filtrado[porto].values[:N]
+        for ax, porto_anonimo in zip(axs.flat, portos_anonimos):
+            valores = df_filtrado[porto_anonimo].values[:N]
             labels = df_filtrado['ITEM'].values[:N]
 
             ax.plot(theta, valores, color=verde_custom, linewidth=2)
             ax.fill(theta, valores, color=verde_custom, alpha=0.5)
             ax.set_varlabels(labels, fontsize=10)
-            ax.set_title(porto, weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
+            ax.set_title(porto_anonimo, weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
             ax.grid(True, which='major', axis='x', color='gray', linestyle='-', linewidth=0.5)
             ax.grid(False, which='major', axis='y')
             ax.set_yticklabels([])
@@ -142,19 +153,19 @@ else:
         # Gráficos comparativos individuais de cada porto com a média
         st.markdown("<h3 style='text-align: center;'>Comparativo de cada Porto com a Média</h3>", unsafe_allow_html=True)
 
-        for porto in portos:
+        for porto_anonimo in portos_anonimos:
             fig, (ax1, ax2) = plt.subplots(figsize=(12, 6), nrows=1, ncols=2, subplot_kw=dict(projection='radar'))
             fig.subplots_adjust(wspace=0.5, top=0.85, bottom=0.15)
 
-            valores_porto = df_filtrado[porto].values[:N]
+            valores_porto = df_filtrado[porto_anonimo].values[:N]
             valores_media = df_filtrado['MEDIA'].values[:N]
             labels = df_filtrado['ITEM'].values[:N]
 
             # Gráfico do porto específico
-            ax1.plot(theta, valores_porto, color=verde_custom, linewidth=2, label=porto)
+            ax1.plot(theta, valores_porto, color=verde_custom, linewidth=2, label=porto_anonimo)
             ax1.fill(theta, valores_porto, color=verde_custom, alpha=0.5)
             ax1.set_varlabels(labels, fontsize=10)
-            ax1.set_title(porto, weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
+            ax1.set_title(porto_anonimo, weight='bold', size='medium', position=(0.5, 1.1), horizontalalignment='center')
 
             # Gráfico da média
             ax2.plot(theta, valores_media, color='gray', linewidth=2, linestyle='--', label='Média')
