@@ -74,8 +74,19 @@ if 'df' not in st.session_state:
 # Utilizar o DataFrame armazenado no session_state
 df = st.session_state['df']
 
-# Seleção de porto na sidebar
-porto_selecionado = st.sidebar.selectbox("Selecione o Porto", ['SUAPE', 'ITAQUI', 'CABEDELO', 'S. FRANCISCO DO SUL', 'VALE', 'VPORTS'])
+# Anonimizar os nomes dos portos
+port_mapping = {
+    'SUAPE': 'Porto A',
+    'ITAQUI': 'Porto B',
+    'CABEDELO': 'Porto C',
+    'S. FRANCISCO DO SUL': 'Porto D',
+    'VALE': 'Porto E',
+    'VPORTS': 'Porto F'
+}
+df = df.rename(columns=port_mapping)
+
+# Seleção de porto na sidebar com nomes anonimizados
+porto_selecionado = st.sidebar.selectbox("Selecione o Porto", list(port_mapping.values()))
 
 # Configuração do layout do Streamlit
 st.markdown("<h1 style='text-align: center;'>ODS por Porto vs. Média por ODS</h1>", unsafe_allow_html=True)
