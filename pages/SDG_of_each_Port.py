@@ -8,7 +8,7 @@ from matplotlib.path import Path
 from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 
-st.set_page_config(page_title="ODS de cada Porto")
+st.set_page_config(page_title="SDG of Each Port")
 
 # Função para criar o gráfico de radar
 def radar_factory(num_vars, frame='circle'):
@@ -76,21 +76,21 @@ df = st.session_state['df']
 
 # Anonimizar os nomes dos portos
 port_mapping = {
-    'SUAPE': 'Porto A',
-    'ITAQUI': 'Porto B',
-    'CABEDELO': 'Porto C',
-    'S. FRANCISCO DO SUL': 'Porto D',
-    'VALE': 'Porto E',
-    'VPORTS': 'Porto F'
+    'SUAPE': 'Port A',
+    'ITAQUI': 'Port B',
+    'CABEDELO': 'Port C',
+    'S. FRANCISCO DO SUL': 'Port D',
+    'VALE': 'Port E',
+    'VPORTS': 'Port F'
 }
 df = df.rename(columns=port_mapping)
 
 # Seleção de porto na sidebar com nomes anonimizados
-porto_selecionado = st.sidebar.selectbox("Selecione o Porto", list(port_mapping.values()))
+porto_selecionado = st.sidebar.selectbox("Select Port", list(port_mapping.values()))
 
 # Configuração do layout do Streamlit
-st.markdown("<h1 style='text-align: center;'>ODS por Porto vs. Média por ODS</h1>", unsafe_allow_html=True)
-st.markdown(f"<h3 style='text-align: center;'>Porto: {porto_selecionado}</h3>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>SDG per Port vs. Average per SDG</h1>", unsafe_allow_html=True)
+st.markdown(f"<h3 style='text-align: center;'>{porto_selecionado}</h3>", unsafe_allow_html=True)
 
 # Obter todos os temas únicos (ODS)
 temas = df['TEMA'].unique()
