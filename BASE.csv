@@ -1,85 +1,85 @@
 QUESTAO;TEMA;AREA;EIXO;ITEM;ITEM_AJUST;SUAPE;ITAQUI;CABEDELO;S. FRANCISCO DO SUL;VALE;VPORTS
-7.1 Numero de programas de conscientizacao em uso racional de energia;ODS 07;Eficiencia Energetica;Ambiental;7.1;7.01;0;1;1;1;0;0
-7.2 Numero de programas de gestao de eficiencia energetica;ODS 07;Eficiencia Energetica;Ambiental;7.2;7.02;1;1;1;1;2;0
-7.3 Numero de iniciativas de inovacao tecnologica em eficiencia energetica;ODS 07;Eficiencia Energetica;Ambiental;7.3;7.03;1;1;0;0;1;0
-7.4 Percentual de energia renovavel contratada e produzida em instalacoes portuarias;ODS 07;Energia Renovavel nas instalacoes portuarias;Ambiental;7.4;7.04;2;0;0;0;2;0
-7.5 Percentual de biocombustiveis em cargas eletricas e mecanicas;ODS 07;Energia Renovavel nas instalacoes portuarias;Ambiental;7.5;7.05;0;0;0;0;0;0
-7.6 Numero de iniciativas de inovacao tecnologica em energia renovavel;ODS 07;Energia Renovavel nas instalacoes portuarias;Ambiental;7.6;7.06;1;1;0;0;1;1
-7.7 Diversidade de fontes de energia renovavel em instalacoes portuarias;ODS 07;Energia Renovavel nas instalacoes portuarias;Ambiental;7.7;7.06;2;0;0;0;2;0
-7.8 Quantidade de parcerias para promocao de energia limpa;ODS 07;Energia Renovavel nas instalacoes portuarias;Ambiental;7.8;7.08;1;1;0;1;1;1
-7.9 Quantidade de estacoes de carregamento para veiculos eletricos;ODS 07;Energia Renovavel nas instalacoes portuarias;Ambiental;7.9;7.09;0;0;1;0;0;0
-7.10 Percentual de fornecimento de energia renovavel para navios;ODS 07;Energia Renovavel nas embarcacoes;Ambiental;7.1;7.1;0;0;0;0;0;0
-7.11 Percentual de abastecimento com GNL;ODS 07;Energia Renovavel nas embarcacoes;Ambiental;7.11;7.11;0;0;1;0;0;0
-7.12 Numero de iniciativas de inovacao tecnologica em atendimento eletrico e energetico para navios;ODS 07;Energia Renovavel nas embarcacoes;Ambiental;7.12;7.12;1;1;0;0;0;0
-7.13 Quantidade de navios usando energia renovavel no porto;ODS 07;Energia Renovavel nas embarcacoes;Ambiental;7.13;7.13;0;0;0;0;1;0
-7.14 Tarifas diferenciadas para navios com desempenho acima dos padroes ambientais;ODS 07;Energia Renovavel nas embarcacoes;Ambiental;7.14;7.14;3;1;0;0;0;0
-8.1 Ausencias devido a absenteismo por razoes de saude;ODS 08;Trabalho Decente;Recursos Humanos;8.1;8.01;0;2;0;0;3;0
-8.2 Afastamentos por doencas ocupacionais;ODS 08;Trabalho Decente;Seguranca do Trabalho;8.2;8.02;2;3;1;1;1;1
-8.3 Afastamentos por acidente;ODS 08;Trabalho Decente;Seguranca do Trabalho;8.3;8.03;0;2;0;1;1;1
-8.4 Numero de acidentes;ODS 08;Trabalho Decente;Seguranca do Trabalho;8.4;8.04;0;2;0;0;0;0
-8.5 Acidentes com vitimas fatais;ODS 08;Trabalho Decente;Seguranca do Trabalho;8.5;8.05;0;3;0;0;0;0
-8.6 Percentual de trabalhadores locais em posicao de chefia;ODS 08;Trabalho Decente;Recursos Humanos;8.6;8.06;1;1;0;1;3;1
-8.7 Percentual de colaboradoras mulheres;ODS 08;Trabalho Decente;Recursos Humanos;8.7;8.07;3;2;2;1;1;0
-8.8 Percentual de colaboradores jovens (14 a 24 anos);ODS 08;Trabalho Decente;Recursos Humanos;8.8;8.08;3;0;2;1;3;1
-8.9 Percentual de colaboradores com deficiencia;ODS 08;Trabalho Decente;Recursos Humanos;8.9;8.09;1;0;2;2;2;1
-8.10 Taxa de Crescimento Anual do Faturamento/Receita Ajustado pela Inflacao;ODS 08;Crescimento Economico;Financeiro;8.1;8.1;0;2;3;3;1;2
-8.11 Valor da receita portuaria;ODS 08;Crescimento Economico;Financeiro;8.11;8.11;1;2;3;3;0;2
-8.12 Valor da margem EBITDA;ODS 08;Crescimento Economico;Financeiro;8.12;8.12;1;3;3;2;3;1
-8.13 Quantidade de toneladas movimentadas;ODS 08;Crescimento Economico;Financeiro;8.13;8.13;1;3;3;3;1;3
-8.14 Faturamento por funcionario;ODS 08;Crescimento Economico;Financeiro;8.14;8.14;0;0;0;0;0;0
-8.15 Posicao no ranking ANTAQ de movimentacao de carga;ODS 08;Crescimento Economico;Financeiro;8.15;8.15;0;0;0;3;3;1
-8.16 Diversidade de tipos de carga movimentada;ODS 08;Crescimento Economico;Financeiro;8.16;8.16;3;3;3;3;1;2
-8.17 Numero de politicas inclusivas e sociais implementadas;ODS 08;Crescimento Economico;Responsabilidade Social;8.17;8.17;1;0;1;1;3;1
-9.1 Numero de patentes depositadas e cedidas no INPI;ODS 09;Pesquisa e Desenvolvimento;Pesquisa e Inovacao;9.1;9.01;3;0;0;0;0;0
-9.2 Numero de publicacoes em periodicos de alto impacto (Qualis A) financiados pelo porto;ODS 09;Pesquisa e Desenvolvimento;Pesquisa e Inovacao;9.2;9.02;0;3;0;0;0;0
-9.3 Numero de premiacoes e selos de qualidade relacionados a Inovacao;ODS 09;Pesquisa e Desenvolvimento;Pesquisa e Inovacao;9.3;9.03;0;2;3;0;1;0
-9.4 Posicao no ranking de inovacao do setor portuario;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.4;9.04;3;3;0;0;1;0
-9.5 Nivel medio de maturacao de inovacao por projeto;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.5;9.05;2;3;0;0;2;2
-9.6 Diversidade de areas do conhecimento em projetos de pesquisa aplicada;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.6;9.06;3;3;0;0;1;1
-9.7 Percentual de operacoes automatizadas no porto;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.7;9.07;1;3;1;1;3;2
-9.8 Numero de convenios com universidades e centros de pesquisa ou de projetos financiados para a universidade;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.8;9.08;3;3;1;1;1;1
-9.9 Numero de pesquisadores externos a instituicao Porto ou na universidade vinculados aos projetos de inovacao;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.9;9.09;3;3;3;0;1;1
-9.10 Numero de empresas parceiras em projetos de inovacao;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.1;9.1;3;3;3;0;1;1
-9.11 Numero de startups apoiadas voltadas para solucoes inovadoras;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.11;9.11;3;2;0;0;1;0
-9.12 Numero de convenios com outros portos ou terminais para promocao da inovacao;ODS 09;Inovacao e Tecnologia;Pesquisa e Inovacao;9.12;9.12;3;1;0;0;0;1
-11.1 Numero de reclamacoes relacionadas ao impacto ambiental e social do Porto;ODS 11;Impacto Ambiental e Social;Ambiental;11.1;11.01;0;3;2;3;2;2
-11.2 Valor do indice de controle de ruido portuario;ODS 11;Impacto Ambiental e Social;Seguranca do Trabalho;11.2;11.02;1;2;2;0;2;2
-11.3 Numero de projetos de sustentabilidade direcionados a Comunidade;ODS 11;Sustentabilidade e Comunidade;Responsabilidade Social;11.3;11.03;2;2;1;1;3;2
-11.4 Quantitativo de areas verdes ou espacos publicos desenvolvidos ou mantidos pelo Porto;ODS 11;Sustentabilidade e Comunidade;Responsabilidade Social;11.4;11.04;3;0;1;1;2;2
-11.5 Valor total de investimentos em infraestrutura na comunidade local (estradas, iluminacao, saneamento, outros);ODS 11;Sustentabilidade e Comunidade;Responsabilidade Social;11.5;11.05;1;0;1;0;1;0
-11.6 Numero de programas ou parcerias para mobilidade sustentavel;ODS 11;Sustentabilidade e Comunidade;Responsabilidade Social;11.6;11.06;1;0;1;0;0;0
-11.7 Numero de iniciativas de engajamento comunitario pelo Porto;ODS 11;Sustentabilidade e Comunidade;Responsabilidade Social;11.7;11.07;2;3;1;1;2;2
-12.1 Valor da concentracao de poluentes do ar;ODS 12;Gestao Ambiental;Ambiental;12.1;12.01;2;2;0;2;2;0
-12.2 Volume total de agua utilizada;ODS 12;Gestao Ambiental;Ambiental;12.2;12.02;0;2;2;3;2;3
-12.3 Volume total de agua reaproveitada;ODS 12;Gestao Ambiental;Ambiental;12.3;12.03;0;0;0;0;2;1
-12.4 Numero de acidentes ambientais registrados internamente;ODS 12;Gestao Ambiental;Ambiental;12.4;12.04;3;3;3;2;1;1
-12.5 Quantidade de residuos gerados;ODS 12;Gestao de Residuos;Ambiental;12.5;12.05;0;1;1;1;1;1
-12.6 Percentual de residuos reciclados e/ou reutilizados;ODS 12;Gestao de Residuos;Ambiental;12.6;12.06;1;1;1;1;2;0
-12.7 Uso do sistema de gestao ambiental;ODS 12;Certificacoes e Sistemas de Gestao;Ambiental;12.7;12.07;2;3;2;3;3;3
-12.8 Status de certificacao ISO 14000;ODS 12;Certificacoes e Sistemas de Gestao;Ambiental;12.8;12.08;3;3;0;3;3;3
-13.1 Status do plano de estrategias para enfrentar as mudancas climaticas;ODS 13;Estrategias e Planejamento Climatico;Ambiental;13.1;13.01;1;2;0;0;1;1
-13.2 Inventario de emissoes;ODS 13;Estrategias e Planejamento Climatico;Ambiental;13.2;13.02;1;3;0;0;2;3
-13.3 Programa de Gestao de Credito de Carbono;ODS 13;Estrategias e Planejamento Climatico;Ambiental;13.3;13.03;1;0;0;0;0;0
-13.4 Programa de monitoramento do clima;ODS 13;Estrategias e Planejamento Climatico;Ambiental;13.4;13.04;2;1;2;0;0;3
-13.5 Numero de colaboracoes e parcerias para acao climatica;ODS 13;Estrategias e Planejamento Climatico;Ambiental;13.5;13.05;1;3;0;0;1;0
-13.6 Infraestrutura resiliente ao clima;ODS 13;Infraestrutura e Operacoes;Ambiental;13.6;13.06;3;0;1;0;0;0
-13.7 Indice de eficiencia no trafego de carga;ODS 13;Infraestrutura e Operacoes;Ambiental;13.7;13.07;0;0;0;2;0;3
-13.8 Reducao percentual de emissoes atraves da implementacao de novas tecnologias;ODS 13;Infraestrutura e Operacoes;Ambiental;13.8;13.08;0;0;0;0;0;0
-14.1 Numero de especies exoticas invasoras registradas;ODS 14;Monitoramento Costeiro;Ambiental;14.1;14.01;1;3;0;3;2;2
-14.2 Concentracao media de poluentes na agua costeira, conforme resolucoes do CONAMA;ODS 14;Monitoramento Costeiro;Ambiental;14.2;14.02;3;1;2;2;2;2
-14.3 Qualidade do sedimento marinho, conforme resolucoes do CONAMA;ODS 14;Monitoramento Costeiro;Ambiental;14.3;14.03;3;2;2;2;2;3
-14.4 Numero de eventos ambientais registrados na costa da regiao;ODS 14;Monitoramento Costeiro;Ambiental;14.4;14.04;0;3;0;3;0;2
-14.5 Monitoramento da agua de lastro;ODS 14;Gestao de Recursos e Areas Protegidas;Ambiental;14.5;14.05;0;0;0;3;0;3
-14.6 Area total de habitats marinhos protegidos na regiao de atuacao do porto;ODS 14;Gestao de Recursos e Areas Protegidas;Ambiental;14.6;14.06;1;0;1;2;0;3
-14.7 Valor total investido em pesquisas de recursos marinhos sustentaveis;ODS 14;Investimento e Pesquisa Marinha;Ambiental;14.7;14.07;1;1;0;0;0;3
-14.8 Numero de projetos de pesquisa marinha financiados pelo porto;ODS 14;Investimento e Pesquisa Marinha;Ambiental;14.8;14.08;2;1;0;0;1;2
-17.1 Status como signataria do pacto global da ONU;ODS 17;Compromissos e Certificacoes;Financeiro;17.1;17.01;1;3;0;2;0;0
-17.2 Alinhamento dos ODS com indicadores IDA e GRI;ODS 17;Compromissos e Certificacoes;Responsabilidade Social;17.2;17.02;0;3;1;2;0;1
-17.3 Existencia de certificacao ECOPORTS;ODS 17;Compromissos e Certificacoes;Ambiental;17.3;17.03;0;0;0;0;0;0
-17.4 Publicacao do relatorio de sustentabilidade;ODS 17;Relatorios e Comunicacoes;Financeiro;17.4;17.04;2;3;0;2;3;2
-17.5 Divulgacao da posicao no IDA;ODS 17;Relatorios e Comunicacoes;Ambiental;17.5;17.05;2;3;2;3;3;3
-17.6 Publicacao de indicadores de sustentabilidade;ODS 17;Relatorios e Comunicacoes;Financeiro;17.6;17.06;1;3;0;2;3;0
-17.7 Registro e comunicacao de incidentes ambientais;ODS 17;Relatorios e Comunicacoes;Ambiental;17.7;17.07;3;2;2;3;3;3
-17.8 Numero de membros independentes no conselho de administracao;ODS 17;Governanca e Parcerias;Financeiro;17.8;17.08;2;3;0;3;3;0
-17.9 Numero de parcerias estabelecidas com ONGs e outras entidades para iniciativas de sustentabilidade;ODS 17;Governanca e Parcerias;Responsabilidade Social;17.9;17.09;3;3;1;2;3;1
-17.10 Listagem dos canais de comunicacao ativos com as partes interessadas;ODS 17;Governanca e Parcerias;Financeiro;17.1;17.1;2;3;0;3;3;3
+7.1 Numero de programas de conscientizacao em uso racional de energia;SDG 07;Energy Efficiency;Ambiental;7.1;7.01;0;1;1;1;0;0
+7.2 Numero de programas de gestao de Energy Efficiency;SDG 07;Energy Efficiency;Ambiental;7.2;7.02;1;1;1;1;2;0
+7.3 Numero de iniciativas de inovacao tecnologica em Energy Efficiency;SDG 07;Energy Efficiency;Ambiental;7.3;7.03;1;1;0;0;1;0
+7.4 Percentual de energia renovavel contratada e produzida em instalacoes portuarias;SDG 07;Renewable Energy in Port Facilities;Ambiental;7.4;7.04;2;0;0;0;2;0
+7.5 Percentual de biocombustiveis em cargas eletricas e mecanicas;SDG 07;Renewable Energy in Port Facilities;Ambiental;7.5;7.05;0;0;0;0;0;0
+7.6 Numero de iniciativas de inovacao tecnologica em energia renovavel;SDG 07;Renewable Energy in Port Facilities;Ambiental;7.6;7.06;1;1;0;0;1;1
+7.7 Diversidade de fontes de energia renovavel em instalacoes portuarias;SDG 07;Renewable Energy in Port Facilities;Ambiental;7.7;7.06;2;0;0;0;2;0
+7.8 Quantidade de parcerias para promocao de energia limpa;SDG 07;Renewable Energy in Port Facilities;Ambiental;7.8;7.08;1;1;0;1;1;1
+7.9 Quantidade de estacoes de carregamento para veiculos eletricos;SDG 07;Renewable Energy in Port Facilities;Ambiental;7.9;7.09;0;0;1;0;0;0
+7.10 Percentual de fornecimento de energia renovavel para navios;SDG 07;Renewable Energy on Vessels;Ambiental;7.1;7.1;0;0;0;0;0;0
+7.11 Percentual de abastecimento com GNL;SDG 07;Renewable Energy on Vessels;Ambiental;7.11;7.11;0;0;1;0;0;0
+7.12 Numero de iniciativas de inovacao tecnologica em atendimento eletrico e energetico para navios;SDG 07;Renewable Energy on Vessels;Ambiental;7.12;7.12;1;1;0;0;0;0
+7.13 Quantidade de navios usando energia renovavel no porto;SDG 07;Renewable Energy on Vessels;Ambiental;7.13;7.13;0;0;0;0;1;0
+7.14 Tarifas diferenciadas para navios com desempenho acima dos padroes ambientais;SDG 07;Renewable Energy on Vessels;Ambiental;7.14;7.14;3;1;0;0;0;0
+8.1 Ausencias devido a absenteismo por razoes de saude;SDG 08;Decent Work;Recursos Humanos;8.1;8.01;0;2;0;0;3;0
+8.2 Afastamentos por doencas ocupacionais;SDG 08;Decent Work;Seguranca do Trabalho;8.2;8.02;2;3;1;1;1;1
+8.3 Afastamentos por acidente;SDG 08;Decent Work;Seguranca do Trabalho;8.3;8.03;0;2;0;1;1;1
+8.4 Numero de acidentes;SDG 08;Decent Work;Seguranca do Trabalho;8.4;8.04;0;2;0;0;0;0
+8.5 Acidentes com vitimas fatais;SDG 08;Decent Work;Seguranca do Trabalho;8.5;8.05;0;3;0;0;0;0
+8.6 Percentual de trabalhadores locais em posicao de chefia;SDG 08;Decent Work;Recursos Humanos;8.6;8.06;1;1;0;1;3;1
+8.7 Percentual de colaboradoras mulheres;SDG 08;Decent Work;Recursos Humanos;8.7;8.07;3;2;2;1;1;0
+8.8 Percentual de colaboradores jovens (14 a 24 anos);SDG 08;Decent Work;Recursos Humanos;8.8;8.08;3;0;2;1;3;1
+8.9 Percentual de colaboradores com deficiencia;SDG 08;Decent Work;Recursos Humanos;8.9;8.09;1;0;2;2;2;1
+8.10 Taxa de Crescimento Anual do Faturamento/Receita Ajustado pela Inflacao;SDG 08;Economic Growth;Financeiro;8.1;8.1;0;2;3;3;1;2
+8.11 Valor da receita portuaria;SDG 08;Economic Growth;Financeiro;8.11;8.11;1;2;3;3;0;2
+8.12 Valor da margem EBITDA;SDG 08;Economic Growth;Financeiro;8.12;8.12;1;3;3;2;3;1
+8.13 Quantidade de toneladas movimentadas;SDG 08;Economic Growth;Financeiro;8.13;8.13;1;3;3;3;1;3
+8.14 Faturamento por funcionario;SDG 08;Economic Growth;Financeiro;8.14;8.14;0;0;0;0;0;0
+8.15 Posicao no ranking ANTAQ de movimentacao de carga;SDG 08;Economic Growth;Financeiro;8.15;8.15;0;0;0;3;3;1
+8.16 Diversidade de tipos de carga movimentada;SDG 08;Economic Growth;Financeiro;8.16;8.16;3;3;3;3;1;2
+8.17 Numero de politicas inclusivas e sociais implementadas;SDG 08;Economic Growth;Responsabilidade Social;8.17;8.17;1;0;1;1;3;1
+9.1 Numero de patentes depositadas e cedidas no INPI;SDG 09;Research and Development;Pesquisa e Inovacao;9.1;9.01;3;0;0;0;0;0
+9.2 Numero de publicacoes em periodicos de alto impacto (Qualis A) financiados pelo porto;SDG 09;Research and Development;Pesquisa e Inovacao;9.2;9.02;0;3;0;0;0;0
+9.3 Numero de premiacoes e selos de qualidade relacionados a Inovacao;SDG 09;Research and Development;Pesquisa e Inovacao;9.3;9.03;0;2;3;0;1;0
+9.4 Posicao no ranking de inovacao do setor portuario;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.4;9.04;3;3;0;0;1;0
+9.5 Nivel medio de maturacao de inovacao por projeto;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.5;9.05;2;3;0;0;2;2
+9.6 Diversidade de areas do conhecimento em projetos de pesquisa aplicada;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.6;9.06;3;3;0;0;1;1
+9.7 Percentual de operacoes automatizadas no porto;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.7;9.07;1;3;1;1;3;2
+9.8 Numero de convenios com universidades e centros de pesquisa ou de projetos financiados para a universidade;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.8;9.08;3;3;1;1;1;1
+9.9 Numero de pesquisadores externos a instituicao Porto ou na universidade vinculados aos projetos de inovacao;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.9;9.09;3;3;3;0;1;1
+9.10 Numero de empresas parceiras em projetos de inovacao;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.1;9.1;3;3;3;0;1;1
+9.11 Numero de startups apoiadas voltadas para solucoes inovadoras;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.11;9.11;3;2;0;0;1;0
+9.12 Numero de convenios com outros portos ou terminais para promocao da inovacao;SDG 09;Innovation and Technology;Pesquisa e Inovacao;9.12;9.12;3;1;0;0;0;1
+11.1 Numero de reclamacoes relacionadas ao Environmental and Social Impact do Porto;SDG 11;Environmental and Social Impact;Ambiental;11.1;11.01;0;3;2;3;2;2
+11.2 Valor do indice de controle de ruido portuario;SDG 11;Environmental and Social Impact;Seguranca do Trabalho;11.2;11.02;1;2;2;0;2;2
+11.3 Numero de projetos de sustentabilidade direcionados a Comunidade;SDG 11;Sustainability and Community;Responsabilidade Social;11.3;11.03;2;2;1;1;3;2
+11.4 Quantitativo de areas verdes ou espacos publicos desenvolvidos ou mantidos pelo Porto;SDG 11;Sustainability and Community;Responsabilidade Social;11.4;11.04;3;0;1;1;2;2
+11.5 Valor total de investimentos em infraestrutura na comunidade local (estradas, iluminacao, saneamento, outros);SDG 11;Sustainability and Community;Responsabilidade Social;11.5;11.05;1;0;1;0;1;0
+11.6 Numero de programas ou parcerias para mobilidade sustentavel;SDG 11;Sustainability and Community;Responsabilidade Social;11.6;11.06;1;0;1;0;0;0
+11.7 Numero de iniciativas de engajamento comunitario pelo Porto;SDG 11;Sustainability and Community;Responsabilidade Social;11.7;11.07;2;3;1;1;2;2
+12.1 Valor da concentracao de poluentes do ar;SDG 12;Environmental Management;Ambiental;12.1;12.01;2;2;0;2;2;0
+12.2 Volume total de agua utilizada;SDG 12;Environmental Management;Ambiental;12.2;12.02;0;2;2;3;2;3
+12.3 Volume total de agua reaproveitada;SDG 12;Environmental Management;Ambiental;12.3;12.03;0;0;0;0;2;1
+12.4 Numero de acidentes ambientais registrados internamente;SDG 12;Environmental Management;Ambiental;12.4;12.04;3;3;3;2;1;1
+12.5 Quantidade de residuos gerados;SDG 12;Waste Management;Ambiental;12.5;12.05;0;1;1;1;1;1
+12.6 Percentual de residuos reciclados e/ou reutilizados;SDG 12;Waste Management;Ambiental;12.6;12.06;1;1;1;1;2;0
+12.7 Uso do sistema de Environmental Management;SDG 12;Certifications and Management Systems;Ambiental;12.7;12.07;2;3;2;3;3;3
+12.8 Status de certificacao ISO 14000;SDG 12;Certifications and Management Systems;Ambiental;12.8;12.08;3;3;0;3;3;3
+13.1 Status do plano de estrategias para enfrentar as mudancas climaticas;SDG 13;Climate Strategies and Planning;Ambiental;13.1;13.01;1;2;0;0;1;1
+13.2 Inventario de emissoes;SDG 13;Climate Strategies and Planning;Ambiental;13.2;13.02;1;3;0;0;2;3
+13.3 Programa de Gestao de Credito de Carbono;SDG 13;Climate Strategies and Planning;Ambiental;13.3;13.03;1;0;0;0;0;0
+13.4 Programa de monitoramento do clima;SDG 13;Climate Strategies and Planning;Ambiental;13.4;13.04;2;1;2;0;0;3
+13.5 Numero de colaboracoes e parcerias para acao climatica;SDG 13;Climate Strategies and Planning;Ambiental;13.5;13.05;1;3;0;0;1;0
+13.6 Infraestrutura resiliente ao clima;SDG 13;Infrastructure and Operations;Ambiental;13.6;13.06;3;0;1;0;0;0
+13.7 Indice de eficiencia no trafego de carga;SDG 13;Infrastructure and Operations;Ambiental;13.7;13.07;0;0;0;2;0;3
+13.8 Reducao percentual de emissoes atraves da implementacao de novas tecnologias;SDG 13;Infrastructure and Operations;Ambiental;13.8;13.08;0;0;0;0;0;0
+14.1 Numero de especies exoticas invasoras registradas;SDG 14;Coastal Monitoring;Ambiental;14.1;14.01;1;3;0;3;2;2
+14.2 Concentracao media de poluentes na agua costeira, conforme resolucoes do CONAMA;SDG 14;Coastal Monitoring;Ambiental;14.2;14.02;3;1;2;2;2;2
+14.3 Qualidade do sedimento marinho, conforme resolucoes do CONAMA;SDG 14;Coastal Monitoring;Ambiental;14.3;14.03;3;2;2;2;2;3
+14.4 Numero de eventos ambientais registrados na costa da regiao;SDG 14;Coastal Monitoring;Ambiental;14.4;14.04;0;3;0;3;0;2
+14.5 Monitoramento da agua de lastro;SDG 14;Resource and Protected Areas Management;Ambiental;14.5;14.05;0;0;0;3;0;3
+14.6 Area total de habitats marinhos protegidos na regiao de atuacao do porto;SDG 14;Resource and Protected Areas Management;Ambiental;14.6;14.06;1;0;1;2;0;3
+14.7 Valor total investido em pesquisas de recursos marinhos sustentaveis;SDG 14;Marine Investment and Research;Ambiental;14.7;14.07;1;1;0;0;0;3
+14.8 Numero de projetos de pesquisa marinha financiados pelo porto;SDG 14;Marine Investment and Research;Ambiental;14.8;14.08;2;1;0;0;1;2
+17.1 Status como signataria do pacto global da ONU;SDG 17;Commitments and Certifications;Financeiro;17.1;17.01;1;3;0;2;0;0
+17.2 Alinhamento dos SDG com indicadores IDA e GRI;SDG 17;Commitments and Certifications;Responsabilidade Social;17.2;17.02;0;3;1;2;0;1
+17.3 Existencia de certificacao ECOPORTS;SDG 17;Commitments and Certifications;Ambiental;17.3;17.03;0;0;0;0;0;0
+17.4 Publicacao do relatorio de sustentabilidade;SDG 17;Reports and Communications;Financeiro;17.4;17.04;2;3;0;2;3;2
+17.5 Divulgacao da posicao no IDA;SDG 17;Reports and Communications;Ambiental;17.5;17.05;2;3;2;3;3;3
+17.6 Publicacao de indicadores de sustentabilidade;SDG 17;Reports and Communications;Financeiro;17.6;17.06;1;3;0;2;3;0
+17.7 Registro e comunicacao de incidentes ambientais;SDG 17;Reports and Communications;Ambiental;17.7;17.07;3;2;2;3;3;3
+17.8 Numero de membros independentes no conselho de administracao;SDG 17;Governance and Partnerships;Financeiro;17.8;17.08;2;3;0;3;3;0
+17.9 Numero de parcerias estabelecidas com ONGs e outras entidades para iniciativas de sustentabilidade;SDG 17;Governance and Partnerships;Responsabilidade Social;17.9;17.09;3;3;1;2;3;1
+17.10 Listagem dos canais de comunicacao ativos com as partes interessadas;SDG 17;Governance and Partnerships;Financeiro;17.1;17.1;2;3;0;3;3;3
