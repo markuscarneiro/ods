@@ -9,7 +9,7 @@ from matplotlib.path import Path
 from matplotlib.spines import Spine
 from matplotlib.transforms import Affine2D
 
-st.set_page_config(page_title="Visão por ODS")
+st.set_page_config(page_title="View by SDG")
 
 # Função para criar o gráfico de radar
 def radar_factory(num_vars, frame='circle'):
@@ -85,22 +85,22 @@ df = st.session_state['df']
 
 # Anonimizar os nomes dos portos
 port_mapping = {
-    'SUAPE': 'Porto A',
-    'ITAQUI': 'Porto B',
-    'CABEDELO': 'Porto C',
-    'S. FRANCISCO DO SUL': 'Porto D',
-    'VALE': 'Porto E',
-    'VPORTS': 'Porto F'
+    'SUAPE': 'Port A',
+    'ITAQUI': 'Port B',
+    'CABEDELO': 'Port C',
+    'S. FRANCISCO DO SUL': 'Port D',
+    'VALE': 'Port E',
+    'VPORTS': 'Port F'
 }
 df = df.rename(columns=port_mapping)
 
 # Selectbox para selecionar o valor do campo 'TEMA'
-tema_selecionado = st.sidebar.selectbox("Selecione o ODS", df['TEMA'].unique())
+tema_selecionado = st.sidebar.selectbox("Select the SDG", df['TEMA'].unique())
 
 # Filtrar as áreas disponíveis com base no tema selecionado, adicionando a opção "Todas"
 areas_disponiveis = df[df['TEMA'] == tema_selecionado]['AREA'].unique().tolist()
-areas_disponiveis.insert(0, "Todas")
-area_selecionada = st.sidebar.selectbox("Selecione a Área", areas_disponiveis)
+areas_disponiveis.insert(0, "All")
+area_selecionada = st.sidebar.selectbox("Select the Area", areas_disponiveis)
 
 # Filtrar o DataFrame com base no tema e, opcionalmente, na área selecionada
 if area_selecionada == "Todas":
@@ -129,8 +129,8 @@ else:
         verde_custom = '#00A36C'  # Tom de verde ajustado
 
         # Configuração do layout do Streamlit
-        st.markdown("<h1 style='text-align: center;; font-size: 34px;'>Atributos ODS: Indicadores do Setor Portuário</h1>", unsafe_allow_html=True)
-        st.markdown(f"<h3 style='text-align: center;'>Tema: {tema_selecionado} - Área: {area_selecionada}</h3>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center;; font-size: 34px;'>SDG Attributes: Indicators of the Port Sector</h1>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='text-align: center;'>{tema_selecionado} - Area: {area_selecionada}</h3>", unsafe_allow_html=True)
 
         # Gráficos principais
         fig, axs = plt.subplots(figsize=(18, 12), nrows=2, ncols=3, subplot_kw=dict(projection='radar'))
@@ -151,7 +151,7 @@ else:
         st.pyplot(fig)
 
         # Gráficos comparativos individuais de cada porto com a média
-        st.markdown("<h3 style='text-align: center;'>Comparativo de cada Porto com a Média</h3>", unsafe_allow_html=True)
+        st.markdown("<h3 style='text-align: center;'>CComparison of each Port with the Average</h3>", unsafe_allow_html=True)
 
         for porto_anonimo in portos_anonimos:
             fig, (ax1, ax2) = plt.subplots(figsize=(12, 6), nrows=1, ncols=2, subplot_kw=dict(projection='radar'))
